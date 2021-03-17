@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">My Application</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="Password" tools:ignore="DuplicateDefinition">******</string>
+    <string name="ConformPassword" tools:ignore="DuplicateDefination">*****</string>
+</resources>
