@@ -7,15 +7,16 @@
     tools:context=".MainActivity">
 
     <com.agrawalsuneet.dotsloader.loaders.CircularDotsLoader
+        android:id="@+id/loder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:loader_animDur="100"
-        app:loader_bigCircleRadius="42dp"
-        app:loader_circleRadius="14dp"
+        app:loader_animDur="50"
+        app:loader_bigCircleRadius="100dp"
+        app:loader_circleRadius="20dp"
         app:loader_defaultColor="@color/purple_700"
         app:loader_firstShadowColor="@color/purple_500"
         app:loader_secondShadowColor="@color/purple_700"
